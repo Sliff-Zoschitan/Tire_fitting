@@ -20,9 +20,9 @@ function Header() {
                     <Nav.Link href="reviews" style={navStyle}>Оставить отзыв</Nav.Link>
                     <Nav.Link href="contacts" style={navStyle}>Контакты</Nav.Link>
                     <NavDropdown onMouseEnter={(e) => document.getElementById("idofthiselement").click()} onMouseLeave={(e) => document.getElementById("idofthiselement").click()} title="Others" id="idofthiselement" title="О компании" style={navStyle}>
-                        <NavDropdown.Item href="action/3.1">Вакансии</NavDropdown.Item>
-                        <NavDropdown.Item href="action/3.2">Новости</NavDropdown.Item>
-                        <NavDropdown.Item href="action/3.3">Корпоративным клиентам</NavDropdown.Item>
+                        <NavDropdown.Item href="3.1">Вакансии</NavDropdown.Item>
+                        <NavDropdown.Item href="3.2">Новости</NavDropdown.Item>
+                        <NavDropdown.Item href="3.3">Корпоративным клиентам</NavDropdown.Item>
                     </NavDropdown>
                     <Button variant="dark" style={{ marginLeft: 100 }}>Посмотреть адреса</Button>
                 </Nav>
